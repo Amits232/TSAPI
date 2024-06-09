@@ -1,5 +1,5 @@
 
-/* Create Read Update Delete (CRUD) 
+/* Create Read Update Delete (CRUD)
 
 login (Read) --> method: POST [V]
 register (Create) --> method: POST [V]
@@ -8,7 +8,7 @@ delete (Delete) --> method: DELETE [V]
 
 */
 
-//import 
+//import
 import { Router } from 'express';
 import { userLogin } from './users.controller';
 

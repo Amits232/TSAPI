@@ -3,7 +3,7 @@ import userRouter from './users/users.routes';
 
 //config
 //process.env.PORT --> the live server port
-const PORT = process.env.PORT || 9876; 
+const PORT = process.env.PORT || 9876;
 
 //create the server
 const server = express();
